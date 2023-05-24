@@ -1,0 +1,154 @@
+/* -------------- RESET --------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* -------------- RESET --------------- */
+
+/* -------------- FONTS --------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+/* -------------- FONTS --------------- */
+
+/* -------------- VARIÁVEIS --------------- */
+:root {
+    --first-color: lightslategray;
+    --second-color: lightgrey;
+    --third-color: black;
+    --fourth-color: white;
+    --fifth-color: #aaa;
+    --sixth-color: rgb(1, 119, 253);
+    --seventh-color: rgb(0, 92, 200);
+    --main-font: 'Poppins', sans-serif;
+}
+/* -------------- VARIÁVEIS --------------- */
+
+
+
+/* -------------- GERAIS --------------- */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: var(--main-font);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0, auto;
+    text-align: center;
+    background-image: linear-gradient(var(--fifth-color), var(--fourth-color));
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 3px black;
+    padding: 3rem;
+}
+
+/* Chart.js */
+canvas{
+    background-color: var(--fourth-color);
+    border: 1px solid var(--third-color);
+}
+/* -------------- GERAIS --------------- */
+
+/* -------------- SEÇÃO --------------- */
+.janela {
+    max-width: 100rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: var(--first-color);
+    border: 1px solid var(--third-color);
+    box-shadow: 5px 5px 5px var(--third-color);
+    border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* -------------- SEÇÃO --------------- */
+
+/* -------------- ENTRADA E SAÍDA DE DADOS --------------- */
+.agrupador {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+    align-items: center;
+}
+
+/* Caixa de entrada de dados */
+.entrada_Dados { 
+    padding: 2rem;
+    text-align: right;
+    border: 1px solid var(--third-color);
+    box-shadow: 5px 5px 5px var(--third-color);
+    margin: .5rem;
+    border-radius: 2rem;
+    background-color: var(--second-color);
+    height: 25rem;
+}
+/* Caixa de saída de resultados */
+.resultados {
+    padding: 2rem;
+    text-align: left;
+    border: 1px solid var(--third-color);
+    box-shadow: 5px 5px 5px var(--third-color);
+    border-radius: 2rem;
+    background-color: var(--second-color);
+    height: 25rem;
+}
+/* Rótulos dos campos de entrada */
+.lbl_input {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 16rem;
+}
+/* Campos de entrada de dados */
+.text_input {
+    font-size: 1.5rem;
+    width: 10rem;
+}
+/* Rótulos dos campos de saída */
+.lbl_output {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 12rem;
+    text-align: right;
+}
+/* Campos de saída */
+.text_output {
+    font-size: 1.5rem;
+    color: var(--fifth-color);
+    width: 10rem;
+}
+/* Botões Sliders */
+.slider:hover {
+    cursor: pointer;
+  }
+/* Botão disparar */
+.botao{
+    background-color: var(--sixth-color);
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    color: white;
+}
+.botao:hover{
+    background-color: var(--seventh-color);
+}
+/* -------------- ENTRADA E SAÍDA DE DADOS --------------- */
+
+/* -------------- GRÁFICO --------------- */
+/* Caixa do gráfico */
+.grafico {
+    margin: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -------------- GRÁFICO --------------- */
+
+
