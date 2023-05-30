@@ -27,7 +27,6 @@ inputGravidade.addEventListener('input', () => {
     funcaoPrincipal(); //Ao alterar o texto será executada a função funcaoPrincipalr
     sliderGravidade.value = inputGravidade.value; //Atualiza a posição do slider de acordo com o valor do texto
   };
-
 });
 inputAlturaIni.addEventListener('input', () => {
   funcaoPrincipal(); //Ao alterar o texto será executada a função funcaoPrincipalr
