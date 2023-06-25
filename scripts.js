@@ -153,7 +153,7 @@ function geraGrafico(vetorDist, vetorAltura, alcance, altura) {
       borderDash: [5, 5], //Estilo da linha
     },
     { //Série 2 (Projétil)
-      label: 'Ponto', //Nome da Série
+      label: 'Projétil', //Nome da Série
       borderColor: 'rgba(200, 0, 0, 1)', //Cor da Série
       pointRadius: 5,
     },
